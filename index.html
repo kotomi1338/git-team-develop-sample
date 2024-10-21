@@ -13,9 +13,15 @@
         <section id="intro">
             <p>このページでは、47都道府県の中からランダムに選ばれた都道府県を紹介します。HTML、CSS、JavaScriptを使ってガチャ機能を作り上げていきます。</p>
         </section>
+        <section id="gacha">
+            <!-- ガチャセクション：ボタンを押して結果を表示するための部分 -->
+            <button id="gacha-button" onclick="spinGacha()">ガチャを回す</button>
+            <div id="result"></div>
+        </section>
     </main>
     <footer>
         <p>&copy; 2024 サンプルサイト</p>
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>
